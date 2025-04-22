@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Header from './Header';
-import reportWebVitals from './reportWebVitals';
-import Footer from './Footer';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Header from "./Header";
+import reportWebVitals from "./reportWebVitals";
+import Apiget from "./Apiget";
+import ApiPost from "./ApiPost";
+import Footer from "./Footer";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <App />
-    <Footer/>
+    {/* <Apiget /> */}
+    <ApiPost/>
+    {/* <Header/>
+  <App />
+  <Footer/> */}
   </React.StrictMode>
 );
 
